@@ -1,7 +1,7 @@
 # Digital Wireframe
 
 ##  This project contains the following pages:
-* **This is theDigital Wireframe for project mars**
+This is the Digital Wireframe for project mars
 
 # Main Menu
 ![Screenshot](./assets/images/main-menu.png)
@@ -17,3 +17,4 @@
 
 
 # Deployed app at this URL: 
+https://t-98.github.io/artg-80g-wireframe/
