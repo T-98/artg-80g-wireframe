@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="stylesheet" href="./assets/css/style.css">
-        <title>Horiseon Social Solution Services Inc </title>
+        <title>Project Mars </title>
     </head>
 
     <body>
@@ -12,7 +12,11 @@
         <!--navigation-->
         <header>
             <span title="Copyright by Horiseon Social Solution Services Inc."> <!--Added span for text pop-up on mouse hover over the head-->
-                    <h1>Hori<span class="seo">seo</span>n</h1>
+                    <div class="logo">
+                        <img 
+                            src="./assets/images/Logo.svg"
+                        >
+                    </div>
             </span>
         
             <!--navigation bar-->
@@ -21,31 +25,32 @@
                 <ul>
                     <!-- List item element-->
                     <li>
-                        <!-- Anchor element -Search Engine Optimization -->
-                        <a href="#search-engine-optimization">
-                            <span title="Go to Search Engine Optimization section">
-                                Search Engine Optimization
+                        <!-- Anchor element -Start Game -->
+                        <a href="#start-game">
+                            <span title="Go to Start Game section">
+                                Start Game
                             </span>
                         </a>
                     </li>
 
                     <li>
-                        <!-- Anchor element -Online Reputation Management -->
-                        <a href="#online-reputation-management">
-                            <span title="Go to Online Reputation Management section">
-                                Online Reputation Management
+                        <!-- Anchor element -Ruleset -->
+                        <a href="#ruleset">
+                            <span title="Go to Ruleset section">
+                                View Rules
                             </span>
                         </a>
                     </li>
 
                     <li>
-                        <!-- Anchor element -Social Media Marketing -->
-                        <a href="#social-media-marketing">
-                            <span title="Go to Social Media Marketing section">
-                                Social Media Marketing
+                        <!-- Anchor element -Exit Game -->
+                        <a href="#exit-game">
+                            <span title="Go to Exit Game section">
+                                Exit
                             </span>
                         </a>
                     </li>
+
                 </ul>
             </nav>
             <!--navigation bar end-->
@@ -53,7 +58,43 @@
         <!--navigation end-->
 
         <!-- hero/jumbotron -->
-        <section class="hero"></section>
+        <section class="hero">
+            <div class="hero-form">
+                <h3>Create Profile</h3>
+                <p>Fill out this form and one of our trainers will schedule a consult</p>
+                <form>
+                    <label for="name">Enter full name:</label>
+                    <input type="text" placeholder="Your Name" name="name" id="name" class="form-input"/>
+                    
+                    <label for="email">Enter email address:</label>
+                    <input type="email" placeholder="Email Address" name="email" id="email" class="form-input"/>
+                    
+                    <label for="phone">Create password:</label>
+                    <input type="tel" placeholder="Password@123" name="phone" id="phone" class="form-input"/>
+
+                    <label for="phone">Confirm password:</label>
+                    <input type="tel"  name="phone" id="phone" class="form-input"/>
+                
+                    <p>
+                        Have you played Project Mars before?
+                        <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                        <label for="trainer-yes">Yes</label>
+                        <input type="radio" name="trainer-confirm" id="trainer-no" />
+                        <label for="trainer-no">No</label>
+                    </p>   
+                    <p>
+                        <label for="checkbox" >
+                            I acknowledge that I am at least 12 years of age.
+                        </label>
+                        <input type="checkbox" name="age-confirm" id="checkbox" />
+                    </p> 
+                    <button type="submit">
+                        Start Playing
+                    </button>
+                </form>
+            </div>
+        </section>
+        <!--End of hero/jumbotron-->
 
         <!--Updated div to section-->
         <!--Beginning of content section-->
@@ -61,57 +102,70 @@
             
             <!--Each section has an id such that the tags lying within the section can be referred to easily and individually for each section item-->
             <!--Each section also has a class such that all sections under class content can be further categorised together for ease of collective styling operations-->
-            <!--Sections have three components, viz. Search Engine Optimization, Online Reputation Management, and Social Media Marketing-->
-            <!--Beginning of Search Engine Optimization section-->
-            <section id="search-engine-optimization" class="content-item">
-               <span title="Search Engine Optimization Image">
-                   <img 
-                        src="./assets/images/search-engine-optimization.jpg" 
+            <!--Sections have three components, viz. Start Game, Ruleset, and Exit Game-->
+            <!--Beginning of Start Game section-->
+            <section id="start-game" class="content-item">
+            
+            <a href="game-screen.html" target="_blank">
+                <span title="Start Game Image">
+                    <img 
+                        src="./assets/images/start-game.jpg" 
                         id="float-left"
                         class="content-item-img"
-                        alt="Search Engine Optimization Image"
+                        alt="Start Game Image"
                     />
                 </span>
-                <h2 class="content-item-head">Search Engine Optimization</h2>
+            </a>
+                <h2 class="content-item-head">
+                     Start Game
+                </h2>
                 <p>
-                    The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
+                    Click on the image to start a new game. (NOTE: THIS WILL TAKE YOU TO THE GAME SCREEN)
                 </p>
             </section>
-            <!--End of Search Engine Optimization section-->
+            <!--End of Start Game section-->
 
-            <!--Beginning of Online Reputation Management section-->
-            <section id="online-reputation-management" class="content-item">
-                <span title="Online Reputation Management Image">
+            <!--Beginning of Ruleset section-->
+            <section id="ruleset" class="content-item">
+            <a href="RulesetProjectMarsv2.html" target="_blank">
+                <span title="Ruleset Image">
                     <img 
-                        src="./assets/images/online-reputation-management.jpg" 
+                        src="./assets/images/Rules.jpg" 
                         id="float-right" 
                         class="content-item-img"
-                        alt="Online Reputation Management Image"
+                        alt="Ruleset Image"
                     />
                 </span>
-                <h2 class="content-item-head">Online Reputation Management</h2>
+            </a>  
+                <h2 class="content-item-head">
+                        Ruleset
+                </h2>
                 <p>
-                    The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
+                    Click on the image to view the game rules
                 </p>
             </section>
-            <!--End of Online Reputation Management section-->
+            <!--End of Ruleset section-->
 
-            <!--Beginning of Social Media Marketing section-->
-            <section id="social-media-marketing" class="content-item">
-                <span title="Social Media Marketing Image">
+            <!--Beginning of Exit Game section-->
+            <section id="exit-game" class="content-item">
+            <a href="exit.html">
+                <span title="Exit Game Image">
                     <img 
-                        src="./assets/images/social-media-marketing.jpg" 
+                        src="./assets/images/Exit.png" 
                         id="float-left" 
                         class="content-item-img"
-                        qalt="Social Media Marketing Image"
+                        qalt="Exit Game Image"
                     />
                 </span>
-                <h2 class="content-item-head">Social Media Marketing</h2>
+            </a>
+                <h2 class="content-item-head">
+                   Exit Game
+                </h2>
                 <p>
-                    Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
+                    Click on the image to exit the game
                 </p>
             </section>
-            <!--End of Social Media Marketing section-->
+            <!--End of Exit Game section-->
 
         </section>
         <!--End of content section-->
@@ -124,47 +178,61 @@
             
             <!--Beginning of Lead Generation section-->
             <section class="benefit" id="benefit-lead" >
-                <h3 class="benefit-head">Lead Generation</h3>
-                <img class="benefit-img" src="assets/images/lead-generation.png" />
+                <h3 class="benefit-head">Offense Cards</h3>
+                <img class="benefit-img" src="assets/images/infantry.png" />
                 <p>
-                    Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
+                    Standard attack cards. These can be used to attack your opponent's cards.
                 </p>
             </section>
             <!--End of Lead Generation section-->
 
             <!--Beginning of Brand Awareness section-->
             <section class="benefit" id="benefit-brand">
-                <h3 class="benefit-head">Brand Awareness</h3>
-                <img class="benefit-img" src="assets/images/brand-awareness.png" />
+                <h3 class="benefit-head">Guardian Cards</h3>
+                <img class="benefit-img" src="assets/images/defensesystem.png" />
                 <p>
-                    Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
+                    Standard defense cards. These can be used to defend against any opposing attack.
                 </p>
             </section>
             <!--End of Brand Awareness section-->
 
             <!--Beginning of Cost Management section-->
             <section class="benefit" id="benefit-cost">
-                <h3 class="benefit-head">Cost Management</h3>
-                <img class="benefit-img" src="assets/images/cost-management.png"></img>
+                <h3 class="benefit-head">Utility Cards</h3>
+                <img class="benefit-img" src="assets/images/ballistics.png"></img>
                 <p>
-                    As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
+                    This are third class of cards, which can be activated almost instantly as soon as they are played. They have a specific effect on the battlefield.
                 </p>
             </section>
             <!--End of Cost Management section-->
+
+            <section class="benefit" id="benefit-cost">
+                <h3 class="benefit-head">Trap Cards</h3>
+                <img class="benefit-img" src="assets/images/stealthop.png"></img>
+                <p>
+                    These cards are placed on the enemy’s field. They are able to place cards on the spot the trap card is placed to remove it, but trigger their effect.
+                </p>
+            </section>
+
 
         </section>
         <!--End of benefits section-->
 
         <!--Beginning of footer-->
         <footer>
-            <h2>Made with ❤️️ by 
+            <h2>Designed by
                     <span title="Copyright by Horiseon Social Solution Services Inc.">
-                        Horiseon
+                        Divyansh Khare
                     </span>
             </h2>
             
             <p>
-                &copy; 2019 Horiseon Social Solution Services, Inc.
+                &copy; 2020 Project Mars, Inc.
+            </p>
+            <p>
+                <a href="https://www.123rf.com/license.php#standard" target="_blank">
+                    License Information
+                </a>
             </p>
         </footer>
         <!--End of footer-->

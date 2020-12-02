@@ -1,21 +1,19 @@
-# horiseon-webpage-refactor.T-98.io
+# Digital Wireframe
 
-##  This project contains the following files:
-* ***index.html:*** This file contains the *refactored* html code-base for the deployed webpage. The code is refactored in the following ways:
-    * *Header:* Hovering over the header will display a text pop-up
-    * *Hero:* The hero section just has the background image visible on the app
-    * *Body:* Added classes, IDs etc to the navbar, hero, contents section, benefits section, and footer, organised the code and changed all div elements to appropriate semantic elements
+##  This project contains the following pages:
+* **This is theDigital Wireframe for project mars**
 
-* ***style.css:*** This file contains the stylesheet for the index.html file, mainly used for the styling of the deployed webpage. The code has been modified and optimised.
+# Main Menu
+![Screenshot](./assets/images/main-menu.png)
 
-# App Screenshot 1
-![Screenshot 1](./assets/images/app_screenshot.png)
+# Game Screen
+![Screenshot](./assets/images/game-screen.png)
 
-# App Screenshot 2
-![Screenshot 1](./assets/images/app_screenshot_2.png)
+# Rule Page
+![Screenshot](./assets/images/rules.png)
 
-
+# Exit Page
+![Screenshot](./assets/images/exit-page.png)
 
 
 # Deployed app at this URL: 
-https://t-98.github.io/horiseon-webpage-refactor.T-98.io/

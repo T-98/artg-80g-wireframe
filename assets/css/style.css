@@ -7,7 +7,7 @@
 
 /*styling elements within the body tag*/
 body {
-    background-color: #d9dcd6;
+    background-color: black;
 }
 
 /*---------------------------------------------------------------------------------------------------*/
@@ -16,16 +16,23 @@ body {
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    background-color: black;
     color: #ffffff;
 }
 
-header h1 {
+header div {
     display: inline-block;
     font-size: 48px;
 }
 
-header h1 .seo {
+.logo img {
+    text-align: center;
+    display: block;
+    width: 250px;
+    height: 150px;
+}
+
+header div .seo {
     color: #d9dcd6;
 }
 
@@ -61,13 +68,58 @@ p {
 
 /*Begin styling hero and its components*/
 .hero {
-    height: 800px;
+    height: 1000px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("../images/Mars.jpg");
     background-size: cover;
     background-position: center;
 }
+
+.hero-form {
+    background-color: transparent;
+    padding: 20px;
+    width: 500px;
+    color: #ffffff;
+    border-style: solid;
+    border-width: 3px;
+    border-color: transparent;
+    position: absolute;
+    bottom: 550px;
+    right: 140px;
+    /*you can write the above as simply=> border: solid 3px #024e76;*/
+  }
+
+.hero-form p {
+    margin: 5px 0 15px 0;
+  }
+
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+  }
+
+.form-input {
+    border: 1px solid #c1440e;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #c1440e;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+.hero-form label {
+    margin: 0 5px;
+  }
+
+.hero-form button {
+    color: #ffffff;
+    background-color: #c1440e;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
 /*End of styling hero and its components*/
 
 /*---------------------------------------------------------------------------------------------------*/
@@ -81,7 +133,7 @@ p {
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    background-color: #c1440e;
 }
 
 .benefit {
@@ -125,7 +177,7 @@ p {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    background-color: #c1440e;
     color: #ffffff;
 }
 
@@ -146,6 +198,7 @@ footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
     text-align: center;
 }
 
