@@ -84,7 +84,6 @@ p {
     border-style: solid;
     border-width: 3px;
     border-color: transparent;
-    position: absolute;
     bottom: 550px;
     right: 140px;
     /*you can write the above as simply=> border: solid 3px #024e76;*/
