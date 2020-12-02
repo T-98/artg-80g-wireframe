@@ -4,7 +4,7 @@
 This is the Digital Wireframe for project mars
 
 # Main Menu
-![Screenshot](./assets/images/main-menu.png)
+![Screenshot](./assets/images/Main.png)
 
 # Game Screen
 ![Screenshot](./assets/images/game-screen.png)
